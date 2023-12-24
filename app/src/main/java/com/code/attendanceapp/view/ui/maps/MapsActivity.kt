@@ -1,4 +1,4 @@
-package com.code.attendanceapp.view.maps
+package com.code.attendanceapp.view.ui.maps
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

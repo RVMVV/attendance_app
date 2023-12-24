@@ -1,12 +1,12 @@
-package com.code.attendanceapp.view.presensi
+package com.code.attendanceapp.view.ui.rekap
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.code.attendanceapp.R
 
-class PresensiActivity : AppCompatActivity() {
+class RekapActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_presensi)
+        setContentView(R.layout.activity_rekap)
     }
 }

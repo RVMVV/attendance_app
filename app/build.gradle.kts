@@ -64,4 +64,7 @@ dependencies {
     // coroutines
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
+    //firebase
+    implementation ("com.google.firebase:firebase-auth-ktx:20.0.2")
+
 }

@@ -8,6 +8,7 @@
     tools:context=".view.ui.login.LoginActivity">
 
     <ImageView
+        android:id="@+id/ivKembali"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/arrow_back"
@@ -72,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@drawable/background_rounded"
-        android:inputType="numberPassword"
+        android:inputType="textPassword"
         android:padding="16dp"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -101,7 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@drawable/background_rounded"
-        android:inputType="numberPassword"
+        android:inputType="textPassword"
         android:padding="16dp"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -114,6 +115,7 @@
 
 
     <Button
+        android:id="@+id/buttonDaftar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"

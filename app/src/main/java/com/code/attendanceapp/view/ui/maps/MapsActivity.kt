@@ -2,6 +2,7 @@ package com.code.attendanceapp.view.ui.maps
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.code.attendanceapp.R
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap

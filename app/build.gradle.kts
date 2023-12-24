@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
     id("kotlin-kapt")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -65,6 +66,7 @@ dependencies {
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
     //firebase
-    implementation ("com.google.firebase:firebase-auth-ktx:20.0.2")
+    implementation ("com.google.firebase:firebase-auth-ktx:22.3.0")
+    implementation ("com.google.firebase:firebase-auth:22.3.0")
 
 }

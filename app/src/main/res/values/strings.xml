@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">attendanceapp</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="masuk">Masuk</string>
 </resources>
